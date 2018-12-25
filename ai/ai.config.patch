@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/milliroe",
+		"value" : {
+			"aiFrames" : "milliroeAI.png",
+			"portraitFrames" : "portraits/milliroeportrait.png",
+			"staticFrames" : "staticmilliroe.png"	
+		}
+	}
+]

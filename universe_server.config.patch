@@ -1,0 +1,6 @@
+[
+  { "op" : "add"
+  ,"path" : "/speciesShips/milliroe"
+  ,"value" : [ "/ships/hylotl/hylotlT0.structure", "/ships/hylotl/hylotlT1.structure", "/ships/hylotl/hylotlT2.structure", "/ships/hylotl/hylotlT3.structure", "/ships/hylotl/hylotlT4.structure", "/ships/hylotl/hylotlT5.structure", "/ships/hylotl/hylotlT6.structure", "/ships/hylotl/hylotlT7.structure", "/ships/hylotl/hylotlT8.structure" ]
+  }
+]

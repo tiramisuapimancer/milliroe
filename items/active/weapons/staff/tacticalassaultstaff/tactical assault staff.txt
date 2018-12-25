@@ -1,0 +1,3 @@
+A staff weapon covered in random scopes and shit,  which, on charge time, creates a static orb at cursor location that shoots bullets to cursor's new location 
+
+Bullets start out precise and slow and become inaccurate and fast before orb disappears 

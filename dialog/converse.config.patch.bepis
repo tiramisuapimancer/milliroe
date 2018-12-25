@@ -1,0 +1,131 @@
+[
+    {
+      "op": "add",
+      "path": "/converse/apex/milliroe",
+      "value": [
+          "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/hylotl/milliroe",
+      "value": [
+      "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/avian/milliroe",
+      "value": [
+        "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/human/milliroe",
+      "value": [
+       "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/floran/milliroe",
+      "value": [
+        "bepisss"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/glitch/milliroe",
+      "value": [
+        "Concerned. Bepis."
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/converse/novakid/milliroe",
+      "value": [
+        "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/greeting/apex/milliroe",
+      "value": [
+          "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/greeting/hylotl/milliroe",
+      "value": [
+      "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/greeting/avian/milliroe",
+      "value": [
+        "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/greeting/human/milliroe",
+      "value": [
+       "bepis"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/greeting/floran/milliroe",
+      "value": [
+        "bepisss"
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/greeting/glitch/milliroe",
+      "value": [
+        "Concerned. Bepis."
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/greeting/novakid/milliroe",
+      "value": [
+        "bepis"
+      ]
+    },{
+    "op": "add",
+    "path": "/greeting/milliroe/default",
+    "value": [
+      "What's poppin?"
+    ]
+  },
+    {
+      "op": "add",
+      "path": "/converse/milliroe/default",
+      "value": [
+        "Can you subscribe to my Squirm? I really need the pixels.",
+        "I'm a member of a secret society.",
+        "Have you ever tasted flesh?",
+        "You're hurting me.",
+        "You smell gay.",
+        "Am I glowing too much? Should I stop? Is it upsetting you?",
+        "I've been banished from four planets.",
+        "I've been banished from four planets, including this one. Don't tell anyone.",
+        "HOLY SHIT!",
+        "I'm actually just a slime pretending to be a Milliroe.",
+        "You look like my ex-wife.",
+        "Yesterday, everything was covered in it. Should I be concerned?",
+        "Hey... you're drooling.",
+        "Ever play Undertale?",
+        "The surgery was a success.",
+        "You know what I hate? Neonmelon.",
+        "\"Splatoon Novakid\" is actually a pretty rude thing to say, y'know. Not that you said it.",
+        "bepis"
+      ]
+    }
+    
+  ]

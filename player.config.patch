@@ -1,0 +1,15 @@
+[
+    {
+      "op": "add",
+      "path": "/species/-",
+      "value": "milliroe"
+    },
+    {
+      "op": "add",
+      "path": "/defaultCodexes/milliroe",
+      "value": [
+        "protectorate1",
+        "protectorate2"
+      ]
+    }
+  ]

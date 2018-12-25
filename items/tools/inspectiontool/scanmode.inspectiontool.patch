@@ -1,0 +1,20 @@
+[
+    {
+      "op": "add",
+      "path": "/outOfRangeText/milliroe",
+      "value": [
+        "The scanner's not long enough.",
+        "Can't reach it.",
+        "Let's get a little closer..."
+      ]
+    },
+    {
+        "op": "add",
+        "path": "/nothingThereText/milliroe",
+        "value": [
+          "Jack shit here, captain.",
+          "I just don't care.",
+          "Scanner's dead probably."
+        ]
+      }
+  ]

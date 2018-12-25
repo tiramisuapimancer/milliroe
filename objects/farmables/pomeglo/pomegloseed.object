@@ -1,0 +1,63 @@
+{
+  "objectName" : "pomegloseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "The pomeglo fruit looks like a sea creature.",
+  "shortdescription" : "pomeglo Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 25,
+
+  "apexDescription" : "pomeglo, actually a fruit despite appearances.",
+  "avianDescription" : "The taste of seafood in a fruit. Creepy indeed.",
+  "floranDescription" : "A plant in disssguise as a creature. Clever.",
+  "glitchDescription" : "Sceptical. Looks like a sea dwelling creature, how can it be that this is a fruit?",
+  "humanDescription" : "A fruit that looks and tastes like lobster.",
+  "hylotlDescription" : "Delicious pomeglo. A true delicacy. Everyone should try it.",
+  "novakidDescription" : "The real fruit of the sea.",
+
+
+  "inventoryIcon" : "pomegloseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "pomegloseed.png:default.3.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "pomegloseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "duration" : [280, 320]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "pomegloHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "consumeSoilMoisture" : false,
+  "minImmersion" : 0.9
+}

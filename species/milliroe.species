@@ -1,0 +1,157 @@
+{
+    "kind": "milliroe",
+
+    "charCreationTooltip":
+    {
+        "title": "Milliroe",
+        "subTitle": "Si",
+        "description": "The Milliroe are brightly-colored glowing slug people hailing from a toxic ocean. They may seem aggressive and strange, but they're not dangeous, and just trying to be friendly, even if they're a bit confusing."},
+
+    "nameGen": ["/species/milliroenamegen.config:names", "/species/milliroenamegen.config:names"], 
+    "ouchNoises": [ "/sfx/humanoid/hylotlhurt_female1.ogg", "/sfx/humanoid/hylotlhurt_female1.ogg"], //though this is a placeholder i cant help but think this is 
+    "skull":"/humanoid/milliroe/dead.png",
+    "effectDirectives" : "?replace=FEFFFFFF=B14A74de?replace=9bd4ffFF=E36C8Ade?replace=31a6ffFF=FF96A6f0",
+   "charGenTextLabels" : [ "Body colour", "Cerata style", "Shirt", "Legwear", "", "Rhinophores", "Shirt colour", "Legwear colour", "MILLIROE", "Personality" ],
+    "humanoidOverrides" : {
+        "bodyFullbright" : true
+      },
+
+
+    "defaultBlueprints":
+    { "tier1":[
+        
+
+// Empty Hands
+      { "item" : "flagnovakid" },
+
+      // Anvil
+            { "item" : "milliroetier1head" },
+            { "item" : "milliroetier1chest" },
+            { "item" : "milliroetier1pants" },
+            { "item" : "novatier2head" },
+            { "item" : "novatier2chest" },
+            { "item" : "novatier2pants" },
+            { "item" : "ironrevolver" },
+            { "item" : "ironassaultrifle" },
+            { "item" : "tungstenmagnum" },
+            { "item" : "tungstenshotgun" },
+      
+      
+      // Anvil2
+            { "item" : "novatier3head" },
+            { "item" : "novatier3chest" },
+            { "item" : "novatier3pants" },
+            { "item" : "novatier4head" },
+            { "item" : "novatier4chest" },
+            { "item" : "novatier4pants" },
+            { "item" : "titaniummachinepistol" },
+            { "item" : "titaniumsniperrifle" },
+            { "item" : "durasteelrevolver" },
+            { "item" : "durasteelassaultrifle" },
+      
+      // Anvil3
+            { "item" : "novatier5ahead" },
+            { "item" : "novatier5achest" },
+            { "item" : "novatier5apants" },
+            { "item" : "novatier6ahead" },
+            { "item" : "novatier6achest" },
+            { "item" : "novatier6apants" },
+      
+            { "item" : "novatier5mhead" },
+            { "item" : "novatier5mchest" },
+            { "item" : "novatier5mpants" },
+            { "item" : "novatier6mhead" },
+            { "item" : "novatier6mchest" },
+            { "item" : "novatier6mpants" },
+      
+            { "item" : "novatier5shead" },
+            { "item" : "novatier5schest" },
+            { "item" : "novatier5spants" },
+            { "item" : "novatier6shead" },
+            { "item" : "novatier6schest" },
+            { "item" : "novatier6spants" },
+      
+            { "item" : "aegisaltpistol" },
+            { "item" : "aegisaltbow" },
+            { "item" : "feroziumwand" },
+            { "item" : "feroziumstaff" },
+            { "item" : "violiumshortsword" },
+            { "item" : "violiumbroadsword" },
+      
+      // Furniture Table 2
+            { "item" : "novakidstoragelocker" },
+            { "item" : "novakidshipdoor" },
+            { "item" : "novakidshiphatch" },
+      
+      // Spinning Wheel
+            { "item" : "novakidfancychest" },
+            { "item" : "novakidfancypants" },
+            { "item" : "novakidjacket" },
+            { "item" : "novakidjacketpants" },
+            { "item" : "novakidsuspenders" },
+            { "item" : "novakidsuspenderspants" },
+            { "item" : "novakidwaistcoat" },
+            { "item" : "novakidblackpants" }
+          ]
+
+    }, //toads
+    "headOptionAsFacialhair" : true,
+
+    "genders" : [
+        {
+          "name" : "male",
+          "image" : "/interface/title/male.png",
+          "characterImage" : "/interface/title/novakidmale.png",
+          "hair" : [ "0","1", "2", "3","4","5","6" ],
+          "shirt" : [ "milliroetshirt1chest",  "workoutchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2"],
+          "pants" : [ "workoutlegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "jeans2legs", "jeans3legs","milliroerippedlegs"],
+          "facialHairGroup" : "tentacle",
+          "facialHair" : [  "0", "1", "1clip", "2", "2clip", "3", "3clip", "4", "4clip"],
+          "facialMaskGroup" : "",
+          "facialMask" : [ ]
+        },
+        {
+          "name" : "female",
+          "image" : "/interface/title/female.png",
+          "characterImage" : "/interface/title/novakidfemale.png",
+          "hair" : ["0","1", "2", "3", "4", "5","6" ],
+          "shirt" : [ "milliroetshirt1chest",  "workoutchest", "coolchest", "conceptchest", "sweatervestchest", "hoodiechest", "hoodiechest2" ],
+          "pants" : [ "workoutlegs", "coollegs", "conceptlegs", "sweatervestlegs", "jeans1legs", "jeans2legs", "jeans3legs","milliroerippedlegs" ],
+          "facialHairGroup" : "tentacle",
+          "facialHair" : [ "0", "1", "1clip", "2", "2clip", "3", "3clip", "4", "4clip" ],
+          "facialMaskGroup" : "",
+          "facialMask" : [ ]
+        }],
+
+
+        //template for the below:
+        //     {"735E3A":"ec", "A38D59":"ec","D9C189":"df","F7E7B2":"df" },  THE FUCKIN MAINLINE IS DARKEST TO LIGHTEST ASSHOLE
+
+    "bodyColor":  //transparency:    ec, ec, df, df. {"darkest2lightest:"lightest2darkest"}
+
+    [   {"735E3A":"91CCE0ec", "A38D59":"65A5CBec","D9C189":"3567A3df","F7E7B2":"1F337Cdf" }, //standaaahd blue
+        {"735E3A":"CA96FFec", "A38D59":"9B6CE3ec","D9C189":"634AB1df","F7E7B2":"3A307Ddf" }, //indigo 
+        {"735E3A":"FF8A90ec", "A38D59":"E05C70ec","D9C189":"A8365Adf","F7E7B2":"6F193Cdf" }, //redpinky
+        {"735E3A":"90E6D1ec", "A38D59":"57C9B8ec","D9C189":"1FA1A3df","F7E7B2":"006875df" }, //teal
+        {"735E3A":"90E6C3ec", "A38D59":"57C9A5ec","D9C189":"1FA38Fdf","F7E7B2":"00756Fdf" }, //elder gluid
+       // {"735E3A":"f32200ec", "A38D59":"f32200ec","D9C189":"be1b00df","F7E7B2":"951500df" }, //undyred SUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUCK
+        {"735E3A":"f87665ec", "A38D59":"d93a3aec","D9C189":"932625df","F7E7B2":"601119df" }, //regular red test
+      {"735E3A":"FF96A6ec", "A38D59":"E36C8Aec","D9C189":"B14A74df","F7E7B2":"7D3058df" }, //rosey pink (another standard i guess)
+      {"735E3A":"c4d1ffec", "A38D59":"8da4f5ec","D9C189":"5269badf","F7E7B2":"233a8bdf" }, //blurple
+      {"735E3A":"f3f5faec", "A38D59":"d3d8eaec","D9C189":"7985b1df","F7E7B2":"505e98df" } //white blurple
+   
+
+
+
+
+
+    ],
+    "hairColor":
+    [ 
+       ""
+    ],
+    "undyColor":
+    [
+        ""
+    ]
+}
